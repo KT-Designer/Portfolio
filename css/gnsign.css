@@ -1,0 +1,74 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body {
+    font-family: 'Noto Sans TC', 'Roboto';
+}
+
+
+/* 主視覺 */
+.kv {
+    background-color: #EEEEEE;
+}
+
+.kv img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+/* 角色 */
+.role {
+    background-color: #DEE3E1;
+}
+
+.role .container {
+    color: #4D4D4D;
+    width: 100%;
+    max-width: 800px;
+}
+
+.role .tag p {
+    color: #FFFFFF;
+    padding: 6px 16px;
+    background-color: #1C8B6A;
+    border: 1px solid #1C8B6A;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* 專案研究 */
+.research {
+    background-color: #EEEEEE;
+    padding-bottom: 58px;
+}
+
+.research .container {
+    max-width: 800px;
+}
+
+
+.research img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+
+/* 小叮嚀 */
+.memo {
+    background-color: #1C8B6A;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.memo p {
+    color: #FFFFFF;
+    font-size: 14px;
+}

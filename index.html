@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doris's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS樣式 -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- 置頂鍵 -->
+    <div id="scrolltop"></div>
+
+    <!-- 選單 -->
+    <nav class="my-navbar navbar navbar-expand-md position-sticky top-0 z-3">
+        <div class="container py-2">
+            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link" href="#ui-ux">UI/UX</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link" href="#Graphic">Graphic</a>
+                    </li>
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About -->
+    <div class="about container" id="about">
+        <div class="row">
+            <div class="card-left col-12 col-md-6 p-0  text-center">
+                <img class="photo" src="./images/photo.png" alt="">
+                <div class="text">
+                    <h4 class="text-center mb-3">Doris</h3>
+                        <h6 class="text-center mb-3">Senior Visual Designer
+                            </h5>
+                            <div class="line mx-auto"></div>
+                </div>
+                <div class="contact text-center">
+                    <!-- Behance -->
+                    <a href="https://www.behance.net/KT_Designer" target="_blank">
+                        <svg class="icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.16895 12.8066C9.16895 13.749 8.48535 14.0469 7.64551 14.0469H5.44336V11.4639H7.68945C8.59766 11.4688 9.16895 11.8447 9.16895 12.8066ZM8.79297 8.78809C8.79297 7.92383 8.12402 7.71875 7.38184 7.71875H5.44824V9.90625H7.5332C8.27051 9.90625 8.79297 9.58398 8.79297 8.78809ZM15.2529 9.9209C14.3594 9.9209 13.7637 10.4775 13.7051 11.3711H16.7422C16.6592 10.4678 16.1904 9.9209 15.2529 9.9209ZM21.9375 2.40625V19.5938C21.9375 20.8877 20.8877 21.9375 19.5938 21.9375H2.40625C1.1123 21.9375 0.0625 20.8877 0.0625 19.5938V2.40625C0.0625 1.1123 1.1123 0.0625 2.40625 0.0625H19.5938C20.8877 0.0625 21.9375 1.1123 21.9375 2.40625ZM13.3291 7.5332H17.1279V6.61035H13.3291V7.5332ZM11.2295 12.9189C11.2295 11.7422 10.6729 10.7266 9.52051 10.3994C10.3604 9.99902 10.7998 9.53516 10.7998 8.59277C10.7998 6.72754 9.4082 6.27344 7.80176 6.27344H3.38281V15.6484H7.92871C9.63281 15.6387 11.2295 14.8232 11.2295 12.9189ZM18.6172 12.1963C18.6172 10.1895 17.4404 8.51465 15.3164 8.51465C13.2461 8.51465 11.8447 10.0674 11.8447 12.1084C11.8447 14.2227 13.1777 15.6729 15.3164 15.6729C16.9375 15.6729 17.9873 14.9453 18.4951 13.3877H16.8496C16.6689 13.9688 15.9414 14.2715 15.375 14.2715C14.2812 14.2715 13.71 13.6318 13.71 12.5479H18.6025C18.6074 12.4355 18.6172 12.3135 18.6172 12.1963Z"
+                                fill="none" />
+                        </svg>
+                    </a>
+
+                    <!-- LINE -->
+                    <a href="https://line.me/ti/p/JYCJKbiHF-" target="_blank">
+                        <svg class="icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.3486 8.4707V11.9424C13.3486 12.0303 13.2803 12.0986 13.1924 12.0986H12.6358C12.582 12.0986 12.5332 12.0693 12.5088 12.0352L10.917 9.88671V11.9473C10.917 12.0352 10.8486 12.1035 10.7608 12.1035H10.2041C10.1162 12.1035 10.0479 12.0352 10.0479 11.9473V8.47558C10.0479 8.38769 10.1162 8.31933 10.2041 8.31933H10.7559C10.8047 8.31933 10.8584 8.34375 10.8828 8.38769L12.4746 10.5361V8.47558C12.4746 8.38769 12.543 8.31933 12.6309 8.31933H13.1875C13.2754 8.31445 13.3486 8.38769 13.3486 8.4707ZM9.34474 8.31445H8.7881C8.70021 8.31445 8.63185 8.38281 8.63185 8.4707V11.9424C8.63185 12.0303 8.70021 12.0986 8.7881 12.0986H9.34474C9.43263 12.0986 9.50099 12.0303 9.50099 11.9424V8.4707C9.50099 8.38769 9.43263 8.31445 9.34474 8.31445ZM8.00196 11.2246H6.48341V8.4707C6.48341 8.38281 6.41505 8.31445 6.32716 8.31445H5.77052C5.68263 8.31445 5.61427 8.38281 5.61427 8.4707V11.9424C5.61427 11.9863 5.62892 12.0205 5.65821 12.0498C5.68751 12.0742 5.72169 12.0937 5.76564 12.0937H7.99708C8.08497 12.0937 8.15333 12.0254 8.15333 11.9375V11.3809C8.15333 11.2978 8.08497 11.2246 8.00196 11.2246ZM16.2783 8.31445H14.0469C13.9639 8.31445 13.8906 8.38281 13.8906 8.4707V11.9424C13.8906 12.0254 13.959 12.0986 14.0469 12.0986H16.2783C16.3662 12.0986 16.4346 12.0303 16.4346 11.9424V11.3857C16.4346 11.2978 16.3662 11.2295 16.2783 11.2295H14.7598V10.6435H16.2783C16.3662 10.6435 16.4346 10.5752 16.4346 10.4873V9.92578C16.4346 9.83789 16.3662 9.76953 16.2783 9.76953H14.7598V9.18359H16.2783C16.3662 9.18359 16.4346 9.11523 16.4346 9.02734V8.4707C16.4297 8.38769 16.3613 8.31445 16.2783 8.31445ZM21.9375 4.05175V17.9824C21.9326 20.1699 20.1406 21.9424 17.9483 21.9375H4.01759C1.83009 21.9326 0.0576273 20.1357 0.0625101 17.9482V4.01757C0.0673929 1.83007 1.86427 0.057612 4.05177 0.0624948H17.9824C20.1699 0.0673776 21.9424 1.85937 21.9375 4.05175ZM18.9297 10.0381C18.9297 6.47363 15.3555 3.57324 10.9658 3.57324C6.57618 3.57324 3.00196 6.47363 3.00196 10.0381C3.00196 13.2314 5.83399 15.9072 9.66212 16.415C10.5947 16.6152 10.4873 16.957 10.2774 18.2119C10.2432 18.4121 10.1162 18.998 10.9658 18.6416C11.8154 18.2852 15.5508 15.9414 17.2256 14.0176C18.3779 12.748 18.9297 11.4639 18.9297 10.0381Z"
+                                fill="none" />
+                        </svg>
+                    </a>
+
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/KT-Designer/" target="_blank">
+                        <svg class="icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.375 0.0625H1.62012C0.760742 0.0625 0.0625 0.770508 0.0625 1.63965V20.3604C0.0625 21.2295 0.760742 21.9375 1.62012 21.9375H20.375C21.2344 21.9375 21.9375 21.2295 21.9375 20.3604V1.63965C21.9375 0.770508 21.2344 0.0625 20.375 0.0625ZM6.67383 18.8125H3.43164V8.37305H6.67871V18.8125H6.67383ZM5.05273 6.94727C4.0127 6.94727 3.17285 6.10254 3.17285 5.06738C3.17285 4.03223 4.0127 3.1875 5.05273 3.1875C6.08789 3.1875 6.93262 4.03223 6.93262 5.06738C6.93262 6.10742 6.09277 6.94727 5.05273 6.94727ZM18.8271 18.8125H15.585V13.7344C15.585 12.5234 15.5605 10.9658 13.9004 10.9658C12.2109 10.9658 11.9521 12.2842 11.9521 13.6465V18.8125H8.70996V8.37305H11.8203V9.79883H11.8643C12.2988 8.97852 13.3584 8.11426 14.9355 8.11426C18.2168 8.11426 18.8271 10.2773 18.8271 13.0898V18.8125Z"
+                                fill="none" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="card-right col-12 col-md-6">
+                <h1 class="hello">Hello,</h1>
+                <h4>我是一位資深視覺設計師</h4>
+                <h6>畢業於台藝大美術系，已有七年以上的設計領域相關經驗。透過美術各種畫材和媒材，結合視覺設計，成為我個人的競爭優勢和特點，同時，擁有RWD網頁切版（HTML/CSS/JS）技能。若您對我的學經歷感興趣，歡迎與我聯絡。
+                </h6>
+
+                <div class="my-send d-flex justify-content-end"><a href="#contact">Send Message</a></div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 學經歷 -->
+    <div class="Qualification px-3 px-md-0">
+        <div class="row">
+            <div class="education col-12 col-md-6">
+                <h3>Education</h3>
+                <div class="line">
+                    <div class="box">
+                        <p class="year">2014.09 - 2017.06</p>
+                        <p class="Q-title">國立臺灣藝術大學</p>
+                        <p class="Q-text">美術系</p>
+                    </div>
+                    <div class="box">
+                        <p class="year">2011.06 - 2013.06</p>
+                        <p class="Q-title">私立景文科技大學</p>
+                        <p class="Q-text">視覺傳達系</p>
+                    </div>
+                    <div class="box">
+                        <p class="year">2014.09 - 2017.06</p>
+                        <p class="Q-title">士林高商</p>
+                        <p class="Q-text">國際貿易科</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work col-12 col-md-6">
+                <h3>Work</h3>
+                <div class="line">
+                    <div class="box">
+                        <p class="year">2022.11 - 至今</p>
+                        <p class="Q-title">Freepik Company</p>
+                        <p class="Q-text">兼職插畫設計師</p>
+                    </div>
+                    <div class="box">
+                        <p class="year">2017.12 - 2020.03</p>
+                        <p class="Q-title">順天堂藥廠股份有限公司_順天本草</p>
+                        <p class="Q-text">平面/網頁設計師</p>
+                    </div>
+                    <div class="box">
+                        <p class="year">2015.04 - 2016.08</p>
+                        <p class="Q-title">MamiBuy_紳太國際資訊股份有限公司</p>
+                        <p class="Q-text">美術設計</p>
+                    </div>
+                    <div class="box">
+                        <p class="year">2015.01 - 至今</p>
+                        <p class="Q-title">Freelancer</p>
+                        <p class="Q-text">視覺設計師</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 技能 -->
+    <div class="skill">
+        <h3 class="title text-center">Skill & Services.</h3>
+        <div class="box">
+            <div class="skill-card text-center">
+                <div class="card-body p-0">
+                    <div class="icon"><img src="./images/graphic-icon.svg" alt=""></div>
+                    <div class="text-body">
+                        <h5>Graphic Design</h5>
+                        <p>平面設計、企業識別設計、包裝設計、網頁設計影音設計、插畫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card text-center">
+                <div class="card-body p-0">
+                    <div class="icon"><img src="./images/ui-icon.svg" alt=""></div>
+                    <div class="text-body">
+                        <h5>UI/UX</h5>
+                        <p>介面設計、設計規範、使用者研究、網頁設計、APP設計</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card text-center">
+                <div class="card-body p-0">
+                    <div class="icon"><img src="./images/web-icon.svg" alt=""></div>
+                    <div class="text-body">
+                        <h5>Web Design</h5>
+                        <p>HTML/CSS/JS、RWD、VSCODE、Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- UI/UX作品集 -->
+    <div class="portfolio px-1" id="ui-ux" data-ref="mix1">
+        <h3 class="title text-center">UI/UX Projects.</h3>
+        <p class="text text-center">與工程師合作完成的各種專案，不同風格、不同類型，利用空閒時間，一步一步完成的專案，一邊記錄著設計的過程與思考模式。</p>
+        <div class="container">
+            <ul class="px-0 mb-0">
+                <li>
+                    <button class="item-link active" data-filter=".Projects">Projects</button>
+                </li>
+                <li>
+                    <button class="item-link" data-filter=".Web">Web</button>
+                </li>
+                <li>
+                    <button class="item-link" data-filter=".Redesign">Redesign</button>
+                </li>
+            </ul>
+            <div class="row ui-list g-3 m-0">
+                <div class="col-12 col-md-4 col-lg-3 mix Projects">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/petni_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>PetNi 陪你</h6>
+                            <p class="m-0">使用者研究 / 介面設計 / App / 網頁設計</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#petni">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Launch static backdrop modal
+                            </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="petni" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="petniLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="petniLabel">
+                                        PetNi 陪你</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    台灣第一支顛覆寵物配對的設計，讓牠成為你的心靈伴侶。無論白貓、黑貓、乳牛貓、大黃狗、小黑狗…能陪伴你的都是好貓好狗，直覺式的左右滑動，更方便快速尋找那個牠。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn" href="https://kittyktoffice.wixsite.com/kt-designer/petni"
+                                        target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/petni.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Projects">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/wtw_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>WTW 影音評價</h6>
+                            <p class="m-0">使用者研究 / 介面設計 / App / 網頁設計</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#WTW">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                    </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="WTW" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="WTWLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="WTWLabel">
+                                        WTW 影音評價</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    追劇、看電影的避雷首選，每日更新熱門排行榜。Netflix、disney+、上映電影、愛奇藝...時下熱門、經典神劇推薦，追劇、看電影不再鬧劇荒，為影迷推薦熱門影劇。影視迷留下評價，看片不踩雷。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn " href="https://kittyktoffice.wixsite.com/kt-designer/wtw"
+                                        target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/wtw.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Projects">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/gnsign_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>小綠簽</h6>
+                            <p class="m-0">使用者研究 / 介面設計 / 網頁設計</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#gnsign">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                    </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="gnsign" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="gnsignLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="gnsignLabel">
+                                        小綠簽</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    護樹、永續、減碳的綠色生活，響應環保無紙化電子簽署，省時便利又環保。網頁裡的小樹苗也會隨著使用次數慢慢成長。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn " href="https://kittyktoffice.wixsite.com/kt-designer/gnsign"
+                                        target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/gnsign.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Projects">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/twbus_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>公車時刻查詢</h6>
+                            <p class="m-0">使用者研究 / 介面設計 / 互動設計 / 網頁設計</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#twbus">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                    </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="twbus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="twbusLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="twbusLabel">
+                                        公車時刻查詢</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    由六角學院主辦的第三屆前端時光屋網頁設計比賽，由UI設計師和工程師共同協作完成專案。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn "
+                                        href="https://kittyktoffice.wixsite.com/kt-designer/taiwanbus" target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/bus.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Projects">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/tourguide_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>台灣旅遊導覽</h6>
+                            <p class="m-0">使用者研究 / 介面設計 / 網頁設計</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#tourguide">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Launch static backdrop modal
+                    </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="tourguide" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="tourguideLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="tourguideLabel">
+                                        台灣旅遊導覽</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    這是一個台灣旅遊導覽網，搜尋附近藝文活動與台灣景點、台灣美食、住宿，輕鬆安排旅程。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn "
+                                        href="https://kittyktoffice.wixsite.com/kt-designer/tourguide" target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/tourguide.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web -->
+                <div class="col-12 col-md-4 col-lg-3 mix Web">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/beauty_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>2020美妝大賞</h6>
+                            <p class="m-0">視覺設計 / 兼RWD切版(Html/Css/Js)</p>
+                            <a class="link" href="https://kt-designer.github.io/Beauty/" target="_blank">網頁&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Web">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/summerpc_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>​夏日競行曲</h6>
+                            <p class="m-0">視覺設計 / 兼RWD切版(Html/Css/Js)</p>
+                            <a class="link" href="https://kt-designer.github.io/Esports/" target="_blank">網頁&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Web">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/lucky_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>養生大樂透</h6>
+                            <p class="m-0">視覺設計 / 兼RWD切版(Html/Css/Js)</p>
+                            <a class="link" href="https://kt-designer.github.io/Healthylottery/"
+                                target="_blank">網頁&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redesign -->
+                <div class="col-12 col-md-4 col-lg-3 mix Redesign">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/HUN-NAN_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>華南銀行</h6>
+                            <p class="m-0">使用者研究 / 介面優化 / App</p>
+                            <a class="link" href="" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="staticBackdropLabel">華南銀行
+                                    </h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    *並非該公司設計師。<br>
+                                    ​此家銀行是個人和同事們會經常使用的薪轉戶，使用中發現幾個產品的痛點，針對產品的痛點分析，並找出可優化操作的點，運用所學的使用者研究方法與介面的優化。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn " href="https://kittyktoffice.wixsite.com/kt-designer/hunnan"
+                                        target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/hunnan.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Redesign">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/starbucks_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>Starbucks</h6>
+                            <p class="m-0">使用者研究 / 概念發想 / 介面優化 / App</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#Starbucks">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Starbucks" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="StarbucksLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="StarbucksLabel">
+                                        Starbucks Project</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    *並非該公司設計師。<br>
+                                    以星巴克為主題，做功能延伸的概念發想，將使用者日常點餐行為轉換為介面。線上預訂點餐讓生活更方便、更美好。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn "
+                                        href="https://kittyktoffice.wixsite.com/kt-designer/starbucks" target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/starbucks.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Redesign">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/eMask_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>健保快易通</h6>
+                            <p class="m-0">使用者研究 / 介面優化 / App / 網頁設計</p>
+                            <a class="link" href="" data-bs-toggle="modal" data-bs-target="#emask">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                </button> -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="emask" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                        aria-labelledby="emaskLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="info modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4 fw-bold" id="emaskLabel">
+                                        健保快易通</h1>
+                                    <span class="my-close" data-bs-dismiss="modal" aria-label="Close">×</span>
+                                </div>
+                                <div class="modal-body">
+                                    *並非該公司設計師。<br>
+                                    複雜的註冊綁定，讓許多民眾使用起來很不方便，於是進行了這項介面優化的研究，來了解使用者的痛點，藉由使用者的痛點，來改善介面。
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="password btn " href="https://kittyktoffice.wixsite.com/kt-designer/emask"
+                                        target="
+                                    ">詳情(需密碼)</a>
+                                    <a class="visitors btn" href="./html/emask.html" target="_blank">訪客瀏覽</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Graphic -->
+    <div class="graphic portfolio px-1" id="Graphic" data-ref="mix2">
+        <h3 class="title text-center">UI/UX Projects.</h3>
+        <p class="text text-center">精美的廣告視覺，讓消費者瞬間為之驚艷，激發對於產品或服務更深層的好奇與興趣，更渴望瞭解更多相關資訊。</p>
+        <div class="container">
+            <ul class="px-0 mb-0">
+                <li>
+                    <button class="item-link active" data-filter=".Event">Web</button>
+                </li>
+                <li>
+                    <button class="item-link" data-filter=".Package">Package</button>
+                </li>
+                <li>
+                    <button class="item-link" data-filter=".DM">DM</button>
+                </li>
+                <li>
+                    <button class="item-link" data-filter=".Logo">Logo</button>
+                </li>
+                <li>
+                    <button class="item-link" data-filter=".Video">Video</button>
+                </li>
+            </ul>
+            <div class="row graphic-list g-3 m-0">
+                <!-- Web -->
+                <div class="col-12 col-md-4 col-lg-3 mix Event">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/health_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>保健食品系列</h6>
+                            <p class="m-0">電商廣告 / 檔期活動 / Google廣告</p>
+                            <a class="link" href="./html/health.html" target="_blank">詳情→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Event">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/baby_cover.jpg" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>婦幼系列</h6>
+                            <p class="m-0">電商廣告 / 檔期活動 / LINE廣告</p>
+                            <a class="link" href="./html/baby.html" target="_blank">詳情→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Event">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/beauty_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>2020美妝大賞</h6>
+                            <p class="m-0">視覺設計 / 兼RWD切版(Html/Css/Js)</p>
+                            <a class="link" href="https://kt-designer.github.io/Beauty/" target="_blank">網頁&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Event">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/summerpc_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>​夏日競行曲</h6>
+                            <p class="m-0">視覺設計 / 兼RWD切版(Html/Css/Js)</p>
+                            <a class="link" href="https://kt-designer.github.io/Esports/" target="_blank">網頁&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Event">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/lucky_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>養生大樂透</h6>
+                            <p class="m-0">視覺設計 / 兼RWD切版(Html/Css/Js)</p>
+                            <a class="link" href="https://kt-designer.github.io/Healthylottery/"
+                                target="_blank">網頁&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package -->
+                <div class="col-12 col-md-4 col-lg-3 mix Package">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/capsule_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>膠囊茶飲系列</h6>
+                            <p class="m-0">包裝設計 / 新品提案</p>
+                            <a class="link" href="./html/capsule.html" target="_blank">詳情→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Package">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/teasample_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>茶飲隨身組</h6>
+                            <p class="m-0">視覺設計 / 包裝設計 / 手繪</p>
+                            <a class="link" href="./html/teasample.html" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Package">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/7day_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>斜角式藥盒</h6>
+                            <p class="m-0">視覺設計 / 包裝設計</p>
+                            <a class="link" href="./html/7day.html" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DM & Poster -->
+                <div class="col-12 col-md-4 col-lg-3 mix DM">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/newyear_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>新春鼠來寶</h6>
+                            <p class="m-0">主視覺設計 / 禮盒設計 / 包裝設計</p>
+                            <a class="link" href="./html/newyear.html" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix DM">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/tea_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>精選茶飲</h6>
+                            <p class="m-0">主視覺設計 / 包裝設計 / 影音設計</p>
+                            <a class="link" href="./html/tea.html" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix DM">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/eye_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>護眼保健</h6>
+                            <p class="m-0">主視覺設計 / 海報 / DM</p>
+                            <a class="link" href="./html/eye.html" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LOGO -->
+                <div class="col-12 col-md-4 col-lg-3 mix Logo">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/logo_cover.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>LOGO Collection</h6>
+                            <p class="m-0">品牌設計 / LOGO</p>
+                            <a class="link" href="./html/logo.html" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video -->
+                <div class="col-12 col-md-4 col-lg-3 mix Video">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/video_1.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>順天速暢</h6>
+                            <p class="m-0">動畫設計 / 影音設計 / 插畫 / 動畫 / 配樂</p>
+                            <a class="link" href="https://youtu.be/kLnpJFv3dmM" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Video">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/video_2.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>福氣甜湯圓</h6>
+                            <p class="m-0">動態攝影 / 影音設計 / 插畫 / 配樂</p>
+                            <a class="link" href="https://youtu.be/eHVzMZa6RW8" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 mix Video">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="./images/video_3.png" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <h6>順天本草2.5</h6>
+                            <p class="m-0">動態攝影 / 影音設計 / 插畫 / 動畫 / 配樂</p>
+                            <a class="link" href="https://youtu.be/094kBmiHRi8" target="_blank">詳情&nbsp;→</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <h3 class="title text-center">Contact me.</h3>
+        <p class="text text-center">若對我的學經歷有興趣，或是有設計外包需求，歡迎與我聯絡</p>
+        <form action="" class="px-3 px-md-0" id="form">
+            <div class="input-block">
+                <input type="text" maxlength="10" autocomplete="off" name="name" id="name" required spellcheck="false">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-block">
+                <input type="email" autocomplete="off" name="email" id="email" required spellcheck="false">
+                <label for="email">E-mail</label>
+            </div>
+            <div class="input-block">
+                <textarea name="message" class="input" id="message" cols="30" rows="10"></textarea>
+                <label for="message" class="label-messsage">Message</label>
+            </div>
+            <button type="submit" class="send" id="button" value="Send Email">
+                <p class="mb-0">Send</p>
+                <span><img src="./images/send-icon.svg" alt=""></span>
+            </button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <a href="https://www.behance.net/KT_Designer" target="_blank"><img src="./images/behance_icon.svg"
+                    alt=""></a>
+            <a href="https://line.me/ti/p/JYCJKbiHF-" target="_blank"><img src="./images/line-icon.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/KT-Designer/" target="_blank"><img src="./images/linkedIn-icon.svg"
+                    alt=""></a>
+        </div>
+        <p>Copyright © 2015-2023 K.T All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- 置頂鍵 -->
+    <script src="./js/top.js"></script>
+    <!-- scrollreveal -->
+    <script src="./js/scrollreveal.min.js"></script>
+    <script src="./js/scrollreveal.js"></script>
+    <!-- 卡片點選動畫 -->
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/mixitup.js"></script>
+    <!-- 作品集_滑鼠點擊交互 -->
+    <script src="./js/mouseclick.js"></script>
+    <!-- 聯絡我 -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        emailjs.init('kBtT_q_Bq60ycuF12')
+    </script>
+    <script src="./js/mail.js"></script>
+    <!-- textarea表格動態 -->
+    <script src="./js/textarea.js"></script>
+    <!-- Model -->
+    <script src="./js/model.js"></script>
+
+
+
+
+
+</body>
+
+</html>

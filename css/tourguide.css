@@ -1,0 +1,165 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body {
+    font-family: 'Noto Sans TC', 'Roboto';
+}
+
+
+/* 主視覺 */
+.kv {
+    background-color: #F6F7FB;
+}
+
+.kv img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+/* 角色 */
+.role {
+    background-color: #000000;
+}
+
+.role .container,
+.project .container,
+.ideate .container,
+.sop .container,
+.result .container,
+.vision .container,
+.test .container,
+.feedback .container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.role .container {
+    color: #FFFFFF;
+}
+
+.role .tag p {
+    color: #FD1E6E;
+    padding: 6px 16px;
+    border: 1px solid #FD1E6E;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+/* 專案背景 */
+.project {
+    background-color: #F6F7FB;
+    padding: 60px 0px;
+}
+
+.project .container h3,
+.research .container h3,
+.ideate .container h3,
+.sop .container h3,
+.result .container h3,
+.test .container h3 {
+    color: #FD1E6E;
+    margin-bottom: 30px;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
+/* 使用者研究 */
+.research,
+.result,
+.feedback,
+.vision {
+    background-color: #EAECF4;
+}
+
+.research .container {
+    max-width: 800px;
+}
+
+
+.research img,
+.ideate img,
+.sop img,
+.test img,
+.feedback img,
+.vision img {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.research .demand {
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: -2px 11px 30px 0px rgba(0, 0, 0, 0.09);
+}
+
+.research .demand ul {
+    margin-top: 16px;
+}
+
+.research .demand li {
+    color: #FD1E6E;
+}
+
+
+/* 設計方法 */
+.ideate,
+.test {
+    background-color: #F6F7FB;
+}
+
+.sop {
+    background-color: #EAECF4;
+}
+
+
+
+
+/* 成果 */
+.result .container .container {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: -2px 11px 30px 0px rgba(0, 0, 0, 0.09);
+}
+
+/* 視覺 */
+.vision {
+    padding-bottom: 60px;
+}
+
+
+
+
+
+/* 小叮嚀 */
+.memo {
+    background-color: #FD1E6E;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.memo p {
+    color: #FFFFFF;
+    font-size: 14px;
+}

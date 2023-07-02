@@ -1,0 +1,148 @@
+/* health*/
+.container {
+    max-width: 100%;
+}
+
+.health-1 img,
+.health-2 img,
+.health-3 img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.health-1 {
+    background-color: #FFEFF2;
+}
+
+.health-2 {
+    background-color: #023159;
+}
+
+.health-3 {
+    background-color: #0062A6;
+}
+
+/* baby */
+.baby-1 img,
+.baby-2 img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.baby-1 {
+    background-color: #EFF7F8;
+}
+
+.baby-2 {
+    background-color: #FFD6D2;
+}
+
+
+/* capsule */
+.capsule-1 {
+    background-color: #FCC80E;
+}
+
+.capsule-1 img,
+.capsule-2 img,
+.capsule-3 img,
+.capsule-4 img,
+.capsule-5 img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.capsule-2 {
+    background-color: #EA5514;
+}
+
+.capsule-3 {
+    background-color: #C30D23;
+}
+
+.capsule-4 {
+    background-color: #E4007F;
+}
+
+.capsule-5 {
+    background-color: #601986;
+}
+
+
+/* teasample */
+.teasample {
+    background-color: #EEEEEE;
+}
+
+.teasample img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+
+/* 7day */
+.day-1 img,
+.day-2 img,
+.day-3 img,
+.day-4 img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.day-1 {
+    background-color: #FCCF00;
+}
+
+.day-2 {
+    background-color: #21B7D0;
+}
+
+.day-3 {
+    background-color: #6AB92C;
+}
+
+.day-4 {
+    background-color: #21B7D0;
+}
+
+
+/* newyear */
+.newyear {
+    background-color: #0A0A0A;
+}
+
+.newyear img {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* tea */
+.tea {
+    background-color: #F2F2F2;
+}
+
+.tea img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+/* eye */
+.eye img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+
+/* logo */
+.logotype {
+    background-color: #EEEEEE;
+}
+
+.logotype .logo img {
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 24px;
+}

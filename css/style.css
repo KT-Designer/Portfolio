@@ -1,0 +1,857 @@
+/* 字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body {
+    background-color: #17171C;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* 捲軸 */
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #17171C;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #DF124C;
+    border-radius: 100px;
+}
+
+
+/* 置頂鍵 */
+#scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    padding: 20px;
+    background-image: url(../images/top-icon.svg);
+    background-color: #DF124C;
+    box-shadow: 2px 2px 0px 0px #00000060;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 8px;
+    animation: floating 1.4s ease-in-out infinite;
+    z-index: 5;
+}
+
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/* 選單 */
+.my-navbar {
+    background-color: #17171C;
+}
+
+.my-navbar .ml-auto {
+    margin-left: auto;
+}
+
+.my-navbar .nav-link {
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-right: 28px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.my-navbar .nav-link:hover,
+.my-navbar .nav-link:focus {
+    color: #DF124C !important;
+}
+
+
+.my-navbar .navbar-toggler {
+    width: 36px;
+    height: 26px;
+    background: url(../images/menu_icon.png) no-repeat center;
+}
+
+.my-navbar .navbar-toggler:focus {
+    background: url(../images/close_icon.png) no-repeat center;
+}
+
+
+
+
+/* 消除MENU的黑外框 */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+
+
+
+/* About */
+
+.about {
+    margin-top: 92px;
+}
+
+.about .row {
+    width: 100%;
+    max-width: 788px;
+    margin: auto;
+
+
+}
+
+
+
+
+/* 左邊 */
+.about .card-left {
+    background-color: #17181C;
+    position: relative;
+    box-shadow: -9px 12px 18px rgba(0, 0, 0, 0.3);
+}
+
+.about .text {
+    margin-bottom: 84px;
+}
+
+.about .photo {
+    margin-top: 60px;
+    margin-bottom: 35px;
+    border: 5px solid rgba(223, 18, 76, 1);
+    border-radius: 50%;
+    box-shadow: 0px 4px 37px 0px rgba(223, 18, 76, 1);
+}
+
+/* 動態光暈 */
+@keyframes photo {
+    0% {
+        box-shadow: 0px 0px 0px 0px rgba(223, 18, 76, 1);
+    }
+
+    50% {
+        box-shadow: 0px 4px 37px 0px rgba(223, 18, 76, 1);
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px 0px rgba(223, 18, 76, 1);
+    }
+}
+
+.about .photo {
+    animation: photo 1.3s infinite;
+}
+
+
+
+.about .line {
+    width: 177px;
+    height: 0.3px;
+    background-color: #FFFFFF;
+}
+
+.about .contact {
+    background-color: #0A0A0F;
+    width: 100%;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 0px;
+}
+
+/* 卡片的IOCN */
+.about .contact .icon {
+    width: 28px;
+    height: auto;
+    margin-right: 18px;
+}
+
+.about .contact .icon path {
+    fill: #DF124C;
+    transition: 0.3s;
+}
+
+.about .contact .icon:hover path {
+    fill: #FFFFFF;
+}
+
+.about .contact a {
+    text-decoration: none;
+}
+
+
+
+/* 右邊 */
+.about .card-right {
+    background-color: #111216;
+    padding: 66.5px 20px 0px 20px;
+    box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.3);
+}
+
+.about .text,
+.about .card-right {
+    color: #FFFFFF;
+}
+
+.about .card-right h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.about .card-right h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.about .card-right h6 {
+    line-height: 33px;
+    margin-top: 22px;
+}
+
+
+
+
+
+.about .card-right .my-send a {
+    text-decoration: none;
+    border: 0px;
+    background-color: #DF124C;
+    color: #FFFFFF;
+    width: 170px;
+    height: 46px;
+    border-radius: 6px;
+    margin-top: 40px;
+    margin-bottom: 36.5px;
+    text-align: center;
+    line-height: 46px;
+
+}
+
+
+
+
+/* 學經歷 */
+.Qualification {
+    margin-top: 149px;
+
+}
+
+.Qualification .row {
+    width: 100%;
+    max-width: 656px;
+    margin: auto;
+
+}
+
+.Qualification .line {
+    padding: 0px 0px 0px 30px;
+    border-left: 3px solid #DF124C;
+}
+
+.Qualification .box {
+    position: relative;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #DF124C;
+
+    margin-bottom: 30px;
+}
+
+.Qualification .box::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: #0A0A0F;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.Qualification .box:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+.Qualification .box p {
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.Qualification .row h3 {
+    margin-bottom: 34px;
+    color: #FFFFFF;
+}
+
+.Qualification .box .year {
+    color: #DF124C;
+}
+
+
+.Qualification .box::before {
+    content: '';
+    position: absolute;
+    right: calc(100% + 22px);
+    top: -1px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #17171C;
+    border-radius: 50%;
+    background-color: #DF124C;
+}
+
+
+.Qualification .box:hover::before {
+    border-color: #DF124C;
+    box-shadow: 0px 1px 14px 0px #DF124C;
+}
+
+
+
+
+
+/* 技能 */
+.skill {
+    background-color: #0D0E12;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-top: 76px;
+}
+
+
+.skill .title,
+.portfolio .title,
+.contact .title {
+    color: #FFFFFF;
+}
+
+
+.skill .title {
+    margin-bottom: 60px;
+}
+
+/* 技能_動態特效 */
+.skill .box {
+    width: 100%;
+    max-width: 765px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 30px;
+}
+
+.skill .box .skill-card {
+    flex-basis: calc(33% - 30px);
+    background-color: #17171C;
+    padding: 26px 36px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.skill .box .card-body {
+    position: relative;
+    z-index: 1;
+}
+
+
+.skill .box .skill-card::before {
+    content: '';
+    position: absolute;
+    width: 400%;
+    height: 400%;
+    background: conic-gradient(#DF124C 30deg, transparent 120deg);
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.skill .box .skill-card::after {
+    content: '';
+    position: absolute;
+    left: 2.4px;
+    top: 2.4px;
+    right: 2.4px;
+    bottom: 2.4px;
+    background-color: #17171C;
+}
+
+
+.skill .box .skill-card:hover::before {
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* 技能_內文 */
+
+.skill .card-body h5 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 29.5px;
+    margin-bottom: 17px;
+}
+
+.skill .card-body p {
+    color: #4C4C4C;
+    font-size: 14px;
+    line-height: 24px;
+    transition: color 1s;
+}
+
+
+
+.skill .card-body:hover p {
+    color: #FFFFFF;
+}
+
+
+
+/* UI/UX作品集 */
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+
+.portfolio .text,
+.contact .text {
+    color: #727272;
+    font-size: 14px;
+    max-width: 617px;
+    padding: 0px 16px;
+    margin: auto;
+    margin-top: 29px;
+    line-height: 24px;
+}
+
+.portfolio .container {
+    max-width: 1154px;
+    margin-top: 42px;
+
+}
+
+
+.portfolio .container ul {
+    display: flex;
+    list-style: none;
+    margin: 32px 0px;
+    padding: 24px 0px;
+
+}
+
+
+.portfolio .container .item-link {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.portfolio .container .active {
+    color: #DF124C;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, rgba(223, 18, 76, 0), rgba(223, 18, 76, 1), rgba(223, 18, 76, 0));
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+
+/* UI/UX作品集_卡片 */
+
+.portfolio .row .card {
+    border-radius: 0px;
+    padding: 16px;
+    background-color: #0D0E12;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.36);
+    transition: transform 0.8s;
+}
+
+.portfolio .row .card:hover {
+    transform: translateY(-18px);
+}
+
+
+/* UI/UX作品集_漸層濾鏡 */
+.portfolio .row .card .pic {
+    position: relative;
+}
+
+.portfolio .row .card .pic::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.87));
+
+}
+
+.portfolio .row .card img {
+    display: block;
+    width: 100%;
+}
+
+.portfolio .row .card h6 {
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.portfolio .row .card p {
+    font-size: 14px;
+    color: #3c3c3c;
+    height: 36px;
+    transition: color 1s;
+}
+
+
+.portfolio .row .card:hover p {
+    color: #FFFFFF;
+}
+
+
+
+.portfolio .row .card .link {
+    font-size: 17px;
+    color: #DF124C;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+}
+
+
+.portfolio .row .card:hover .link {
+    animation: moving 0.8s ease-in-out infinite;
+
+}
+
+
+@keyframes moving {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+
+}
+
+/* UI/UX作品集_Modal */
+
+.portfolio .info {
+    background-color: #17171C;
+    color: #FFFFFF;
+}
+
+.portfolio .btn-close {
+    filter: invert(100%);
+}
+
+
+
+.portfolio .info .my-close {
+    color: #FFFFFF;
+    font-size: 34px;
+}
+
+
+.portfolio .modal-header {
+    color: #DF124C;
+    border-bottom: 0px;
+}
+
+.portfolio .modal-footer {
+    border-top: 0px;
+}
+
+.portfolio .password {
+    background-color: #0D0E12;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.portfolio .visitors {
+    background-color: #DF124C;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+
+
+
+/* Graphic作品集_ */
+.graphic {
+    background-color: #0D0E12;
+}
+
+.graphic .row .card {
+    background-color: #17171C;
+
+}
+
+
+/* Contact */
+.contact {
+    padding: 80px 0px 90px 0px;
+}
+
+
+
+
+
+
+/* Contact_表單 */
+.contact form {
+    width: 100%;
+    max-width: 478px;
+    margin: auto;
+    margin-top: 44px;
+}
+
+.contact .input-block {
+    position: relative;
+}
+
+.contact input,
+.contact textarea {
+    background-color: #17171C;
+    border: 2px solid #4C4C4C;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.contact textarea {
+    max-height: 204px;
+}
+
+.contact .input-block label {
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    padding: 0px 10px;
+    color: #DF124C;
+    font-size: 17px;
+    font-weight: 300;
+    background-color: #17171C;
+    transition: top 0.3s;
+}
+
+.contact input:focus~label,
+.contact input:valid~label {
+    top: -12px;
+}
+
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #DF124C;
+}
+
+
+
+
+
+
+
+
+/* Contact_送出鈕 */
+.contact .send {
+    margin-left: auto;
+    color: #FFFFFF;
+    background-color: #DF124C;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 12px 76px;
+    border-radius: 6px;
+}
+
+.contact .send p {
+    margin-right: 10px;
+}
+
+
+/* Footer */
+footer {
+    margin: 30px 0px;
+
+}
+
+footer .container {
+    margin-bottom: 26px;
+}
+
+footer .container img {
+    margin-right: 22px;
+    height: 32px;
+    width: auto;
+    transition: transform 1s;
+}
+
+footer .container img:hover {
+    transform: translateY(-20px);
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    /* 選單 */
+    .my-navbar .nav-link:hover::after,
+    .my-navbar .nav-link:focus::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        background-color: #DF124C;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    /* About */
+    .about {
+        margin-top: 42px;
+    }
+
+    /* 左邊 */
+    .about .photo {
+        animation: none;
+    }
+
+
+
+
+
+
+
+    /* 學經歷 */
+    .Qualification {
+        margin-top: 70px;
+    }
+
+
+    /* 技能 */
+    .skill {
+        padding-top: 40px;
+    }
+
+    .skill h3 {
+        margin-bottom: 30px;
+
+    }
+
+    /* 技能_動態特效 */
+    .skill .box .skill-card::before {
+        animation-duration: 2s;
+        animation-play-state: running;
+    }
+
+    /* 技能_內文 */
+    .skill .card-body p {
+        color: #ffffff;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width:576px) {
+
+    /* 技能 */
+    .skill .box .skill-card {
+        flex-basis: calc(100% - 30px);
+    }
+
+
+}
