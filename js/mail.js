@@ -13,7 +13,7 @@ document.getElementById('form')
             .then(() => {
                 btn.value = 'Send Email';
                 alert('訊息發送成功！');
-                // 清除表单字段的值
+                // 清除表單字段的值
                 document.getElementById("name").value = "";
                 document.getElementById("email").value = "";
                 document.getElementById("message").value = "";
