@@ -14,7 +14,6 @@ $(document).ready(function () {
 
 
 
-
 // 選單預設和點擊樣式
 // 在css要特別設一個.active的樣式，例如  .my-navbar .nav-link.active
 $(function () {
