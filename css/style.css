@@ -69,7 +69,7 @@ body {
 }
 
 .my-navbar .nav-link {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-size: 17px;
     margin-right: 28px;
     font-weight: 500;
@@ -83,15 +83,18 @@ body {
 }
 
 
-.my-navbar .navbar-toggler {
-    width: 36px;
-    height: 26px;
-    background: url(../images/menu_icon.png) no-repeat center;
+
+
+
+
+
+
+.my-navbar button span {
+    color: #DF124C;
+    font-size: 26px;
 }
 
-.my-navbar .navbar-toggler:focus {
-    background: url(../images/close_icon.png) no-repeat center;
-}
+
 
 
 
@@ -776,6 +779,14 @@ footer p {
 @media screen and (min-width:768px) {
 
     /* 選單 */
+    /* 配合JQ使用，特別設一個.active的樣式 */
+    .my-navbar .nav-link.active {
+        color: #DF124C !important;
+        position: relative;
+
+    }
+
+    .my-navbar .nav-link.active::after,
     .my-navbar .nav-link:hover::after,
     .my-navbar .nav-link:focus::after {
         content: '';

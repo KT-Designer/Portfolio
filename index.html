@@ -9,6 +9,8 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- CSS樣式 -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
 
@@ -23,14 +25,14 @@
             <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
+                <span class="fa-solid fa-bars" id="menu-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-auto">
-                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
                     </li>
-                    <li class="nav-item mx-auto">
+                    <li class="mx-auto">
                         <a class="nav-link" href="#ui-ux">UI/UX</a>
                     </li>
                     <li class="nav-item mx-auto">
@@ -855,6 +857,8 @@
         </form>
     </div>
 
+
+
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
@@ -897,6 +901,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- 置頂鍵 -->
     <script src="./js/top.js"></script>
+    <!-- 漢堡選單 -->
+    <script src="./js/navicon.js"></script>
     <!-- scrollreveal -->
     <script src="./js/scrollreveal.min.js"></script>
     <script src="./js/scrollreveal.js"></script>
