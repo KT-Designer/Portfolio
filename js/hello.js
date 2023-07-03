@@ -1,3 +1,4 @@
+// 進站問候語
 $(document).ready(function () {
     function setGreeting() {
         var greeting = $('#hello');
