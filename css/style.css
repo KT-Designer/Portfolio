@@ -216,8 +216,8 @@ body {
     color: #FFFFFF;
 }
 
-.about .card-right h1 {
-    font-size: 60px;
+#hello {
+    font-size: 40px;
     font-weight: 700;
 }
 
