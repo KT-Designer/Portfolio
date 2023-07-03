@@ -217,19 +217,20 @@ body {
 }
 
 #hello {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
 }
 
 .about .card-right h4 {
     font-size: 20px;
     font-weight: 700;
+    margin-top: 24px;
 }
 
 
 .about .card-right h6 {
     line-height: 33px;
-    margin-top: 22px;
+
 }
 
 
