@@ -62,6 +62,7 @@ body {
 /* 選單 */
 .my-navbar {
     background-color: #17171C;
+
 }
 
 .my-navbar .ml-auto {
@@ -247,7 +248,28 @@ body {
     margin-bottom: 36.5px;
     text-align: center;
     line-height: 46px;
+    position: relative;
+    z-index: 1;
 
+}
+
+.about .card-right .my-send a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0A0A0F;
+    border-radius: 6px;
+    z-index: -1;
+    transform: scale(0);
+    transform-origin: center;
+    transition: .2s;
+}
+
+.about .card-right .my-send a:hover::after {
+    transform: scale(1);
 }
 
 
