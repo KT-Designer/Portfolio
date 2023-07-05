@@ -7,11 +7,11 @@ $(document).ready(function () {
         var greetingText;
 
         if (hour >= 6 && hour < 12) {
-            greetingText = 'Hi, Good morning.';
+            greetingText = 'Hi, Good Morning.';
         } else if (hour >= 12 && hour < 18) {
-            greetingText = 'Hi, Good afternoon.';
+            greetingText = 'Hi, Good Afternoon.';
         } else {
-            greetingText = 'Hi, Good evening.';
+            greetingText = 'Hi, Good Evening.';
         }
 
         greeting.text(greetingText);
