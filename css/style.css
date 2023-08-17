@@ -8,6 +8,12 @@ body {
 
 }
 
+
+body,
+html {
+    overflow-x: hidden;
+}
+
 /* 捲軸 */
 ::-webkit-scrollbar {
     width: 8px;
