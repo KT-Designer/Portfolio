@@ -45,6 +45,7 @@ html {
     border-radius: 8px;
     animation: floating 1.4s ease-in-out infinite;
     z-index: 5;
+    cursor: pointer;
 }
 
 
