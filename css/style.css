@@ -65,7 +65,6 @@ html {
 
 
 
-
 /* 選單 */
 .my-navbar {
     background-color: #17171C;
@@ -120,7 +119,7 @@ html {
 /* About */
 
 .about {
-    margin-top: 92px;
+    margin-top: 160px;
 }
 
 .about .row {
@@ -863,7 +862,7 @@ footer p {
 
     /* About */
     .about {
-        margin-top: 42px;
+        margin-top: 130px;
     }
 
     /* 左邊 */
