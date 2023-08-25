@@ -68,6 +68,10 @@ html {
 /* 選單 */
 .my-navbar {
     background-color: #17171C;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 3;
 
 }
 
