@@ -189,3 +189,8 @@ body {
     color: #FFFFFF;
     font-size: 14px;
 }
+
+.memo a {
+    text-decoration: none;
+    color: #00af75;
+}
