@@ -483,6 +483,7 @@ html {
 .portfolio {
     padding-top: 80px;
     padding-bottom: 90px;
+    background-color: #0D0E12;
 }
 
 
@@ -671,7 +672,7 @@ html {
 
 /* Graphic作品集_ */
 .graphic {
-    background-color: #0D0E12;
+    background-color: #17171C;
 }
 
 .graphic .row .card {
