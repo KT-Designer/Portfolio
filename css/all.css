@@ -117,7 +117,8 @@
 }
 
 .herb1 {
-    background-color: #840302;
+    background-image: url(../images/herb_1bg.png);
+    background-size: contain;
 }
 
 .herb2 {
