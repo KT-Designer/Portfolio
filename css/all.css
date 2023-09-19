@@ -107,6 +107,33 @@
 }
 
 
+
+/* herb */
+.herb1 img,
+.herb2 img,
+.herb3 img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.herb1 {
+    background-color: #840302;
+}
+
+.herb2 {
+    background-color: #C00503;
+}
+
+
+.herb3 {
+    background-color: #FAC936;
+}
+
+
+
+
+
+
 /* newyear */
 .newyear {
     background-color: #0A0A0A;
