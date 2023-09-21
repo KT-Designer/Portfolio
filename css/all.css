@@ -131,6 +131,49 @@
 }
 
 
+/* herbtea */
+.herbtea1 img,
+.herbtea2 img,
+.herbtea3 img,
+.herbtea4 img,
+.herbtea5 img,
+.herbtea6 img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.herbtea1 {
+    background-color: #E7C9D1;
+}
+
+.herbtea2 {
+    background-color: #CED2A6;
+}
+
+.herbtea3 {
+    background-color: #E4D0BC;
+}
+
+.herbtea4 {
+    background-color: #DDBAC3;
+}
+
+.herbtea5 {
+    background-color: #CECE96;
+}
+
+.herbtea6 {
+    background-color: #E1CBB0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
