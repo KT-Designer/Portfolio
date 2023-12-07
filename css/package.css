@@ -62,7 +62,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    max-width: 700px;
+    max-width: 800px;
     object-fit: cover;
 }
 
@@ -105,5 +105,13 @@ body {
 
 .next {
     right: 5%;
+
+}
+
+@media screen and (max-width:768px) {
+    .container .popup-image img {
+        width: 100%;
+
+    }
 
 }
