@@ -1,8 +1,11 @@
 (function () {
     var disableRightClick = function (e) {
-        e.preventDefault();
-        alert("別當盜圖仔！");
+        if (e.target.tagName === "IMG") {
+            e.preventDefault();
+            alert("別當盜圖仔！");
+        }
     };
 
     document.addEventListener('contextmenu', disableRightClick);
 })();
+
