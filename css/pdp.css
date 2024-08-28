@@ -30,10 +30,14 @@ body {
 
 .container .image-container .row {
     margin-bottom: 4px;
+
+
 }
 
 .container .image-container .image {
     overflow: hidden;
+
+
 }
 
 .container .image-container .image img {
