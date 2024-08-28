@@ -72,8 +72,7 @@ html {
     width: 100%;
     top: 0px;
     z-index: 3;
-    padding: 0 10%;
-
+    padding: 0 6%;
 }
 
 .my-navbar .ml-auto {
@@ -865,6 +864,14 @@ footer p {
 
 
 @media screen and (max-width:768px) {
+
+    /* 選單 */
+    .my-navbar {
+        padding: 0 2%;
+    }
+
+
+
 
     /* About */
     .about {
