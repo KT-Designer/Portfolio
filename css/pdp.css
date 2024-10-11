@@ -28,19 +28,25 @@ body {
 
 }
 
+
+
 .container .image-container .row {
     margin-bottom: 4px;
+    
 
 
 }
 
 .container .image-container .image {
     overflow: hidden;
-
+    max-width: auto;
 
 }
 
 .container .image-container .image img {
     width: 100%;
+    max-height: 2400px;
     height: 100%;
+
 }
+
