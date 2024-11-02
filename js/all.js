@@ -12,7 +12,7 @@
 
 
 // 複製郵件
-const email = "kitty.ktoffice@gmail.com"; 
+const email = "10360123.ntua@gmail.com"; 
 function copyEmail() {
     navigator.clipboard.writeText(email).then(function () {
         alert("已複製   " + email);
