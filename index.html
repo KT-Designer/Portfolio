@@ -122,7 +122,7 @@
 
 
                     <!-- Mail -->
-                    <a href="mailto:kitty.ktoffice@gmail.com" target="_blank">
+                    <a href=""id="copyEmailTop" style="cursor: pointer;">
                         <svg class="icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M18,0.1H4.1c-2.2,0-4,1.8-4,4v13.9c0,2.2,1.8,4,4,4h13.9c2.2,0,4-1.8,4-4V4.1C21.9,1.9,20.2,0.1,18,0.1z
@@ -131,6 +131,7 @@
                                C18.7,7.1,18.5,7.5,18.2,7.8z" fill="none" />
                         </svg>
                     </a>
+                    <input type="text" value="kitty.ktoffice@gmail.com" id="emailInput" style="position: absolute; left: -9999px;">
                 </div>
             </div>
             <div class="card-right col-12 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
@@ -1166,13 +1167,16 @@
 
 
 
+
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
             <a href="https://www.behance.net/KT_Designer" target="_blank"><img src="./images/behance_icon.svg"
                     alt=""></a>
             <a href="https://line.me/ti/p/JYCJKbiHF-" target="_blank"><img src="./images/line-icon.svg" alt=""></a>
-            <a href="mailto:kitty.ktoffice@gmail.com" target="_blank"><img src="./images/mail-icon.svg" alt=""></a>
+
+            <img src="./images/mail-icon.svg" alt="複製郵件" id="copyEmailBottom" style="cursor: pointer;"></a>
+            <input type="text" value="kitty.ktoffice@gmail.com" id="emailInput" style="position: absolute; left: -9999px;">
         </div>
         <p>Copyright © 2015-2024 K.T All rights reserved.</p>
     </footer>
@@ -1207,6 +1211,8 @@
 
     <!-- jQuery -->
     <script src="./js/jquery-3.7.1.js"></script>
+    <!-- 全站JS -->
+    <script src="./js/all.js"></script>
     <!-- 置頂鍵 -->
     <script src="./js/top.js"></script>
     <!-- 漢堡選單 -->
