@@ -12,17 +12,17 @@
 
 
 // 複製郵件
+const email = "kitty.ktoffice@gmail.com"; 
 function copyEmail() {
-    const emailInput = document.getElementById("emailInput");
-    emailInput.select();
-    emailInput.setSelectionRange(0, 99999); // For mobile devices
-
-    document.execCommand("copy");
-    alert("已複製   " + emailInput.value);
+    navigator.clipboard.writeText(email).then(function () {
+        alert("已複製   " + email);
+    }).catch(function (err) {
+        console.error("複製失敗！", err);
+    });
 }
-
 document.getElementById("copyEmailTop").addEventListener("click", copyEmail);
 document.getElementById("copyEmailBottom").addEventListener("click", copyEmail);
+
 
 
 
