@@ -18,7 +18,7 @@ function copyEmail() {
     emailInput.setSelectionRange(0, 99999); // For mobile devices
 
     document.execCommand("copy");
-    alert("已複製 " + emailInput.value);
+    alert("已複製   " + emailInput.value);
 }
 
 document.getElementById("copyEmailTop").addEventListener("click", copyEmail);
