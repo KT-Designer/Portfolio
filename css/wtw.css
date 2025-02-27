@@ -155,6 +155,7 @@ body {
 .app .container img {
     max-height: 88px;
     max-width: 200px;
+    margin-bottom: 10px;
 }
 
 
