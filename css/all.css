@@ -154,8 +154,7 @@
 
 
 /* cream */
-.cream img,
-.cream4 img {
+.cream img {
     width: 100%;
     max-width: 900px;
 }
@@ -165,10 +164,28 @@
 }
 
 
-.cream4 {
+.cream3 {
 
-    background-color: #D9D6C9;
+    background-color: #E1DFD5;
 }
+
+.cream4 {
+    background-color: #E4E5E2;
+}
+
+.cream5 {
+    background-color: #E4E0D3;
+}
+
+.cream6 {
+    background-color: #EDEEE9;
+}
+
+
+.cream7 {
+    background-color: #E0DDD1;
+}
+
 
 
 
