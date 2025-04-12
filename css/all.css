@@ -153,6 +153,29 @@
 
 
 
+/* cream */
+.cream img,
+.cream4 img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.cream {
+    background-color: #EEEEEC;
+}
+
+
+.cream4 {
+
+    background-color: #D9D6C9;
+}
+
+
+
+
+
+
+
 
 
 
