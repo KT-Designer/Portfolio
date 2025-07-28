@@ -579,10 +579,11 @@ html {
     font-weight: 400;
     color: #FFFFFF;
     margin-top: 12px;
+    font-size: 1rem;
 }
 
 .portfolio .row .card p {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #3c3c3c;
     height: 36px;
     transition: color 1s;
@@ -923,6 +924,10 @@ footer p {
 
 
 @media screen and (max-width:576px) {
+    html {
+        font-size: 20px;
+    }
+
 
     /* 技能 */
     .skill .box .skill-card {
