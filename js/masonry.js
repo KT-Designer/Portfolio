@@ -1,3 +1,14 @@
+// 瀑布流
+window.addEventListener("load", () => {
+    new Masonry(".images", {
+        itemSelector: ".img",
+        gutter: 15,
+        percentPosition: true
+    });
+});
+
+
+// lightbox
 const allImages = document.querySelectorAll(".images .img");
 const lightbox = document.querySelector(".lightbox");
 const closeImgBtn = lightbox.querySelector(".close-icon");
