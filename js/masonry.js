@@ -1,3 +1,4 @@
+
 // 瀑布流
 window.addEventListener("load", () => {
     new Masonry(".images", {
@@ -6,6 +7,24 @@ window.addEventListener("load", () => {
         percentPosition: true
     });
 });
+
+
+// 解決讀圖跑版的問題
+const grid = document.querySelector(".images");
+
+const msnry = new Masonry(grid, {
+    itemSelector: ".img",
+    gutter: 15,
+    percentPosition: true
+});
+
+imagesLoaded(grid).on("progress", function () {
+    msnry.layout();
+});
+
+
+
+
 
 
 // lightbox
