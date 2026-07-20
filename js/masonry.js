@@ -1,15 +1,4 @@
-
 // 瀑布流
-window.addEventListener("load", () => {
-    new Masonry(".images", {
-        itemSelector: ".img",
-        gutter: 15,
-        percentPosition: true
-    });
-});
-
-
-// 解決讀圖跑版的問題
 const grid = document.querySelector(".images");
 
 const msnry = new Masonry(grid, {
@@ -18,11 +7,10 @@ const msnry = new Masonry(grid, {
     percentPosition: true
 });
 
+// 解決讀圖跑版的問題
 imagesLoaded(grid).on("progress", function () {
     msnry.layout();
 });
-
-
 
 
 
