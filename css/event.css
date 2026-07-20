@@ -10,6 +10,7 @@ body {
     background: #000000;
     max-width: 1200px;
 
+
 }
 
 .container h1 {
@@ -34,31 +35,30 @@ body {
 
 .gallery {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .gallery .images {
-    gap: 15px;
-    max-width: 90%;
+    width: 90%;
+    max-width: 1800px;
     margin: 40px 0;
-    columns: 5 240px;
-    /* 欄數 */
+    padding: 0;
     list-style: none;
 }
 
+/* 每張圖片 */
 .gallery .images .img {
-    display: flex;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 14px;
+    width: calc((100% - 60px) / 5);
+    /* 5欄 */
+    margin-bottom: 15px;
     border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .gallery .images img {
+    display: block;
     width: 100%;
-
 }
 
 
@@ -149,6 +149,11 @@ body {
 /* Responsive media query code */
 @media screen and (max-width: 688px) {
 
+    .gallery .images .img {
+        width: calc((100% - 15px) / 2);
+        /* 2欄 */
+    }
+
     .lightbox .wrapper {
         padding: 12px;
         max-width: calc(100% - 26px);
@@ -156,17 +161,6 @@ body {
 
     .wrapper .preview-img {
         margin-top: 15px;
-    }
-
-    .gallery .images {
-        column-count: 2;
-        column-width: unset;
-        /* 或 auto */
-        column-gap: 15px;
-
-        max-width: 100%;
-        padding: 0 13px;
-        margin-top: 20px;
     }
 
     .wrapper .buttons {
