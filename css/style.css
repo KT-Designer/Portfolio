@@ -522,25 +522,66 @@ html {
 }
 
 
-.service .price {
+.service .price_box {
     color: #DF124C;
     font-size: 32px;
     font-family: 'Roboto';
     font-weight: 500;
     position: absolute;
-    top: 80%;
+    top: 82%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #0A0A0F;
     width: 100%;
     padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.service .price span {
+.service .price_box span {
     font-size: 16px;
     font-family: 'Noto Sans TC';
     font-weight: 400;
+    margin-right: 6px;
 }
+
+.service .price_box a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Noto Sans TC';
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #DF124C;
+    padding: 8px 18px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.service .price_box a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0A0A0F;
+    border-radius: 6px;
+    z-index: -1;
+    transform: scale(0);
+    transform-origin: center;
+    transition: .3s;
+}
+
+.service .price_box a:hover::after {
+    transform: scale(1);
+}
+
+
+
+
+
 
 .service .spl {
     font-size: 12px;
