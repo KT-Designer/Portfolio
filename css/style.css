@@ -381,7 +381,8 @@ html {
 
 .skill .title,
 .portfolio .title,
-.contact .title {
+.contact .title,
+.service .title {
     color: #FFFFFF;
 }
 
@@ -455,7 +456,6 @@ html {
 
 
 /* 技能_內文 */
-
 .skill .card-body h5 {
     color: #FFFFFF;
     font-size: 18px;
@@ -478,6 +478,87 @@ html {
 }
 
 
+/* 收費標準 */
+.service {
+    background-color: #0D0E12;
+    padding-bottom: 6%;
+}
+
+.service .card-body h5 {
+    color: #DF124C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 29.5px;
+    margin-bottom: 30px;
+}
+
+.service .card-body p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.service .box {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 30px;
+    margin-top: 40px;
+}
+
+.service .box .skill-card {
+    flex-basis: calc(33% - 30px);
+    background-color: #17171C;
+    padding: 18px 10px 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+
+
+}
+
+
+.service .price {
+    color: #DF124C;
+    font-size: 32px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0A0A0F;
+    width: 100%;
+    padding: 8px;
+}
+
+.service .price span {
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+    font-weight: 400;
+}
+
+.service .cancel {
+    max-width: 900px;
+    width: 100%;
+    color: #727272;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
 
 /* UI/UX作品集 */
 .portfolio {
@@ -488,7 +569,8 @@ html {
 
 
 .portfolio .text,
-.contact .text {
+.contact .text,
+.service .text {
     color: #727272;
     font-size: 14px;
     max-width: 617px;
@@ -682,6 +764,9 @@ html {
 }
 
 
+
+
+
 /* Contact */
 .contact {
     padding: 80px 0px 90px 0px;
@@ -789,6 +874,14 @@ html {
 .contact .send p {
     margin-right: 10px;
 }
+
+
+
+
+
+
+
+
 
 
 /* Footer */
@@ -931,6 +1024,13 @@ footer p {
 
     /* 技能 */
     .skill .box .skill-card {
+        flex-basis: calc(100% - 30px);
+    }
+
+
+
+    /* 收費標準 */
+    .service .box .skill-card {
         flex-basis: calc(100% - 30px);
     }
 
