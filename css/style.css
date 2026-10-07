@@ -892,10 +892,13 @@ footer {
 
 footer .container {
     margin-bottom: 26px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 footer .container img {
-    margin-right: 22px;
     height: 32px;
     width: auto;
     transition: transform 1s;
@@ -909,6 +912,7 @@ footer p {
     color: #ffffff;
     font-size: 14px;
     font-weight: 300;
+    text-align: center;
 }
 
 
